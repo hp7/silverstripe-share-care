@@ -9,8 +9,10 @@
 
 
 /**
-SS 4 
+* SS 4 
 */
+namespace jonom\ShareCare;
+
 use SilverStripe\ORM\DataExtension;
 
 
