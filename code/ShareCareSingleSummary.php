@@ -1,4 +1,17 @@
 <?php
+/**
+ * SS 4
+ */
+
+namespace jonom\ShareCare;
+
+use SilverStripe\ORM\DataExtension;
+
+use SilverStripe\Assets\Image;
+use SilverStripe\Control\Director;
+use SilverStripe\Forms\FieldGroup;
+use SilverStripe\Forms\FormField;
+use SilverStripe\Forms\TextField;
 
 /**
  * Alternative to ShareCareFields extension that promotes the streamlined use of
