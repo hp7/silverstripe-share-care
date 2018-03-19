@@ -1,5 +1,17 @@
 <?php
 
+
+   /**
+     * SS 4
+     */    
+use SilverStripe\Forms\TextareaField;
+use SilverStripe\Forms\TextField;
+use SilverStripe\Assets\Image;
+use SilverStripe\Assets\File;  
+    
+
+
+
 /**
  * Provide default fields and method customisations to complement Open Graph
  * module with minimal setup.
@@ -16,6 +28,10 @@ class ShareCareFields extends DataExtension
         'PinterestImageCustom' => 'Image',
     );
 
+    
+    
+
+    
     /**
      * Add CMS fields to allow setting of custom open graph values.
      */
