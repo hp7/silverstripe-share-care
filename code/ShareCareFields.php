@@ -4,6 +4,9 @@
    /**
      * SS 4
      */    
+namespace jonom\ShareCare;
+use SilverStripe\ORM\DataExtension;
+
 use SilverStripe\Forms\TextareaField;
 use SilverStripe\Forms\TextField;
 use SilverStripe\Assets\Image;
